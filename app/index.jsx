@@ -1,6 +1,8 @@
 import { View } from "react-native";
 // import ViewComp from "../components/View";
-import TextComp from "../components/Text";
+// import TextComp from "../components/Text";
+// import InputComp from "../components/Input";
+// import TouchableOpacityComp from "../components/TouchableOpacity";
 export default function Index() {
   return (
     <View
@@ -11,7 +13,9 @@ export default function Index() {
       }}
     >
       {/* <ViewComp /> */}
-      <TextComp />
+      {/* <TextComp /> */}
+      {/* <InputComp/> */}
+      {/* <TouchableOpacityComp/> */}
     </View>
   );
 }
