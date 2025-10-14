@@ -3,6 +3,7 @@ import { View } from "react-native";
 // import TextComp from "../components/Text";
 // import InputComp from "../components/Input";
 // import TouchableOpacityComp from "../components/TouchableOpacity";
+// import ScrollViewComp from "../components/ScrollView";
 export default function Index() {
   return (
     <View
@@ -16,6 +17,8 @@ export default function Index() {
       {/* <TextComp /> */}
       {/* <InputComp/> */}
       {/* <TouchableOpacityComp/> */}
+      {/* <TouchableHighlightComp/> */}
+      {/* <ScrollViewComp/> */}
     </View>
   );
 }
