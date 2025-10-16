@@ -4,6 +4,8 @@ import { View } from "react-native";
 // import InputComp from "../components/Input";
 // import TouchableOpacityComp from "../components/TouchableOpacity";
 // import ScrollViewComp from "../components/ScrollView";
+// import FlatListComp from "../components/FlatList";
+import SectionListComp from "../components/SectionList";
 export default function Index() {
   return (
     <View
@@ -19,6 +21,8 @@ export default function Index() {
       {/* <TouchableOpacityComp/> */}
       {/* <TouchableHighlightComp/> */}
       {/* <ScrollViewComp/> */}
+      {/* <FlatListComp/> */}
+      <SectionListComp/>
     </View>
   );
 }
