@@ -8,6 +8,8 @@ import { View } from "react-native";
 // import SectionListComp from "../components/SectionList";
 // import ImageComp from "../components/Image";
 // import ModalComp from "../components/Modal";
+// import PressableComp from "../components/Pressable";
+import ImageBackgroundComp from "../components/ImageBackground";
 export default function Index() {
   return (
     <View
@@ -27,6 +29,8 @@ export default function Index() {
       {/* <SectionListComp/> */}
       {/* <ImageComp/> */}
       {/* <ModalComp/> */}
+      {/* <PressableComp/> */}
+      <ImageBackgroundComp/>
     </View>
   );
 }
