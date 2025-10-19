@@ -9,7 +9,9 @@ import { View } from "react-native";
 // import ImageComp from "../components/Image";
 // import ModalComp from "../components/Modal";
 // import PressableComp from "../components/Pressable";
-import ImageBackgroundComp from "../components/ImageBackground";
+// import ImageBackgroundComp from "../components/ImageBackground";
+// import SafeAreaViewComp from "../components/SafeAreaView";0
+// import StatusBarComp from "../components/StatusBar";
 export default function Index() {
   return (
     <View
@@ -30,7 +32,9 @@ export default function Index() {
       {/* <ImageComp/> */}
       {/* <ModalComp/> */}
       {/* <PressableComp/> */}
-      <ImageBackgroundComp/>
+      {/* <ImageBackgroundComp/> */}
+      {/* <SafeAreaViewComp/> */}
+      {/* <StatusBarComp/> */}
     </View>
   );
 }
