@@ -12,6 +12,8 @@ import { View } from "react-native";
 // import ImageBackgroundComp from "../components/ImageBackground";
 // import SafeAreaViewComp from "../components/SafeAreaView";0
 // import StatusBarComp from "../components/StatusBar";
+// import ActivityIndicatorComp from "../components/ActivityIndicator";
+// import KeyboardAvoidingViewComp from "../components/KeyboardAvoidingView";
 export default function Index() {
   return (
     <View
@@ -35,6 +37,8 @@ export default function Index() {
       {/* <ImageBackgroundComp/> */}
       {/* <SafeAreaViewComp/> */}
       {/* <StatusBarComp/> */}
+      {/* <ActivityIndicatorComp/> */}
+      {/* <KeyboardAvoidingViewComp /> */}
     </View>
   );
 }
