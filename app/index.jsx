@@ -14,6 +14,8 @@ import { View } from "react-native";
 // import StatusBarComp from "../components/StatusBar";
 // import ActivityIndicatorComp from "../components/ActivityIndicator";
 // import KeyboardAvoidingViewComp from "../components/KeyboardAvoidingView";
+// import VirtualizedListComp from "../components/VirtualizedList";
+// import RefreshControlComp from "../components/RefreshControl";
 export default function Index() {
   return (
     <View
@@ -23,6 +25,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      {/* Uncomment the Component To See The Component Result */}
+
       {/* <ViewComp /> */}
       {/* <TextComp /> */}
       {/* <InputComp/> */}
@@ -39,6 +43,8 @@ export default function Index() {
       {/* <StatusBarComp/> */}
       {/* <ActivityIndicatorComp/> */}
       {/* <KeyboardAvoidingViewComp /> */}
+      {/* <VirtualizedListComp /> */}
+      {/* <RefreshControlComp /> */}
     </View>
   );
 }
