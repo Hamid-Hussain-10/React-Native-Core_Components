@@ -16,6 +16,7 @@ import { View } from "react-native";
 // import KeyboardAvoidingViewComp from "../components/KeyboardAvoidingView";
 // import VirtualizedListComp from "../components/VirtualizedList";
 // import RefreshControlComp from "../components/RefreshControl";
+import SwitchComp from "../components/Switch";
 export default function Index() {
   return (
     <View
@@ -45,6 +46,7 @@ export default function Index() {
       {/* <KeyboardAvoidingViewComp /> */}
       {/* <VirtualizedListComp /> */}
       {/* <RefreshControlComp /> */}
+      <SwitchComp />
     </View>
   );
 }
